@@ -1,4 +1,5 @@
-Awesome-Pytorch-list
+Awesome-Pytorch-list：来源于 https://github.com/bharathgs/Awesome-pytorch-list#contents
+
 ========================
 
 ![pytorch-logo-dark](https://raw.githubusercontent.com/pytorch/pytorch/master/docs/source/_static/img/pytorch-logo-dark.png)
@@ -11,13 +12,13 @@ Awesome-Pytorch-list
 
 ## Contents
 - [Pytorch & 相关库](#pytorch--related-libraries)
-  - [NLP 与语音处理](#nlp--Speech-Processing)
-  - [计算机视觉](#cv)
-  - [概率/生成库s](#probabilisticgenerative-libraries)
+  - [NLP 与语音处理](#自然语言处理和语音处理)
+  - [计算机视觉](#计算机视觉)
+  - [概率/生成库s](#概率/生成库)
   - [其他库](#other-libraries)
-- [教程与示例](#tutorials--examples)
-- [论文实现](#paper-implementations)
-- [PyTorch 其他项目](#pytorch-elsewhere)
+- [教程与示例](#教程和示例)
+- [论文实现](#论文实现)
+- [PyTorch 其他项目](#PyTorch 其他项目)
 
 ## Pytorch & related libraries
 
@@ -179,26 +180,26 @@ This library contains a PyTorch implementation of the SO(3) equivariant CNNs for
 
 ## 教程和示例
 
-1. **[Practical Pytorch](https://github.com/spro/practical-pytorch)**: Tutorials explaining different RNN models
-2. [DeepLearningForNLPInPytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html): An IPython Notebook tutorial on deep learning, with an emphasis on Natural Language Processing. 
-3. [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial): tutorial for researchers to learn deep learning with pytorch.
-4.  [pytorch-exercises](https://github.com/keon/pytorch-exercises): pytorch-exercises collection. 
-5.  [pytorch tutorials](https://github.com/pytorch/tutorials): Various pytorch tutorials. 
-6.  [pytorch examples](https://github.com/pytorch/examples):  A repository showcasing examples of using pytorch 
-7. [pytorch practice](https://github.com/napsternxg/pytorch-practice): Some example scripts on pytorch.  
-8.  [pytorch mini tutorials](https://github.com/vinhkhuc/PyTorch-Mini-Tutorials):  Minimal tutorials for PyTorch adapted from Alec Radford's Theano tutorials. 
-9.  [pytorch text classification](https://github.com/xiayandi/Pytorch_text_classification): A simple implementation of CNN based text classification in Pytorch 
-10. [cats vs dogs](https://github.com/desimone/pytorch-cat-vs-dogs): Example of network fine-tuning in pytorch for the kaggle competition Dogs vs. Cats Redux: Kernels Edition. Currently #27 (0.05074) on the leaderboard.  
-11. [convnet](https://github.com/eladhoffer/convNet.pytorch): This is a complete training example for Deep Convolutional Networks on various datasets (ImageNet, Cifar10, Cifar100, MNIST).
-12. [pytorch-generative-adversarial-networks](https://github.com/mailmahee/pytorch-generative-adversarial-networks): simple generative adversarial network (GAN) using PyTorch.   
+1. **[Practical Pytorch：解释不同 RNN 模型的教程](https://github.com/spro/practical-pytorch)**: Tutorials explaining different RNN models
+2. [DeepLearningForNLPInPytorch：基于 IPython Notebook 的深度学习教程，关注于自然语言处理](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html): An IPython Notebook tutorial on deep learning, with an emphasis on Natural Language Processing. 
+3. [pytorch-tutorial：为研究者准备的 PyTorch 深度学习教程](https://github.com/yunjey/pytorch-tutorial): tutorial for researchers to learn deep learning with pytorch.
+4.  [pytorch-exercises：PyTorch 练习题集](https://github.com/keon/pytorch-exercises): pytorch-exercises collection. 
+5.  [pytorch tutorials：各种官方 PyTorch 教程](https://github.com/pytorch/tutorials): Various pytorch tutorials. 
+6.  [pytorch examples：通过示例展示如何使用 PyTorch 的项目](https://github.com/pytorch/examples):  A repository showcasing examples of using pytorch 
+7. [pytorch practice：一些 PyTorch 脚本示例](https://github.com/napsternxg/pytorch-practice): Some example scripts on pytorch.  
+8.  [pytorch mini tutorials：根据 Alec Radford's Theano 教程改编的极简教程](https://github.com/vinhkhuc/PyTorch-Mini-Tutorials):  Minimal tutorials for PyTorch adapted from Alec Radford's Theano tutorials. 
+9.  [pytorch text classification：基于文本分类任务的简单 CNN 实现](https://github.com/xiayandi/Pytorch_text_classification): A simple implementation of CNN based text classification in Pytorch 
+10. [cats vs dogs：用于 kaggle 竞赛 Dogs vs. Cats Redux 的模型，该解决方案目前总排名第 27](https://github.com/desimone/pytorch-cat-vs-dogs): Example of network fine-tuning in pytorch for the kaggle competition Dogs vs. Cats Redux: Kernels Edition. Currently #27 (0.05074) on the leaderboard.  
+11. [convnet：在各种数据集上（ImageNet、Cifar10、 Cifar100 和 MNIST）使用深度卷积神经网络的完整示例。](https://github.com/eladhoffer/convNet.pytorch): This is a complete training example for Deep Convolutional Networks on various datasets (ImageNet, Cifar10, Cifar100, MNIST).
+12. [pytorch-generative-adversarial-networks：简单的生成对抗网络实现](https://github.com/mailmahee/pytorch-generative-adversarial-networks): simple generative adversarial network (GAN) using PyTorch.   
 13. [pytorch containers](https://github.com/amdegroot/pytorch-containers): This repository aims to help former Torchies more seamlessly transition to the "Containerless" world of PyTorch by providing a list of PyTorch implementations of Torch Table Layers.  
-14. [T-SNE in pytorch](https://github.com/cemoody/topicsne): t-SNE experiments in pytorch 
-15. [AAE_pytorch](https://github.com/fducau/AAE_pytorch): Adversarial Autoencoders (with Pytorch). 
-16. [Kind_PyTorch_Tutorial](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial): Kind PyTorch Tutorial for beginners.  
-17.  [pytorch-poetry-gen](https://github.com/justdark/pytorch-poetry-gen): a char-RNN based on pytorch.  
-18. [pytorch-REINFORCE](https://github.com/JamesChuanggg/pytorch-REINFORCE): PyTorch implementation of REINFORCE, This repo supports both continuous and discrete environments in OpenAI gym.
-19.  **[PyTorch-Tutorial](https://github.com/MorvanZhou/PyTorch-Tutorial)**: Build your neural network easy and fast  https://morvanzhou.github.io/tutorials/ 
-20. [pytorch-intro](https://github.com/joansj/pytorch-intro): A couple of scripts to illustrate how to do CNNs and RNNs in PyTorch
+14. [T-SNE in pytorch：基于 PyTorch 的 t 分布随机近邻嵌入（t-SNE）实现](https://github.com/cemoody/topicsne): t-SNE experiments in pytorch 
+15. [AAE_pytorch：对抗自编码器](https://github.com/fducau/AAE_pytorch): Adversarial Autoencoders (with Pytorch). 
+16. [Kind_PyTorch_Tutorial：很容易的 PyTorch 入门教程](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial): Kind PyTorch Tutorial for beginners.  
+17.  [pytorch-poetry-gen：实现字符级的 RNN 模型](https://github.com/justdark/pytorch-poetry-gen): a char-RNN based on pytorch.  
+18. [pytorch-REINFORCE：REINFORCE 的 PyTorch 实现，该项目支持 OpenAI gym 中的连续型和离散型环境](https://github.com/JamesChuanggg/pytorch-REINFORCE): PyTorch implementation of REINFORCE, This repo supports both continuous and discrete environments in OpenAI gym.
+19.  **[PyTorch-Tutorial：快速上手搭建神经网络](https://github.com/MorvanZhou/PyTorch-Tutorial)**: Build your neural network easy and fast  https://morvanzhou.github.io/tutorials/ 
+20. [pytorch-intro：展示如何执行卷积神经网络和循环神经网络的一些脚本。](https://github.com/joansj/pytorch-intro): A couple of scripts to illustrate how to do CNNs and RNNs in PyTorch
 21. [pytorch-classification](https://github.com/bearpaw/pytorch-classification): A unified framework for the image classification task on CIFAR-10/100 and ImageNet.
 22. [pytorch_notebooks - hardmaru](https://github.com/hardmaru/pytorch_notebooks): Random tutorials created in NumPy and PyTorch.
 23. [pytorch_tutoria-quick](https://github.com/soravux/pytorch_tutorial): Quick PyTorch introduction and tutorial. Targets computer vision, graphics and machine learning researchers eager to try a new framework.  
@@ -238,28 +239,28 @@ This library contains a PyTorch implementation of the SO(3) equivariant CNNs for
 57. [cifar10-fast](https://github.com/davidcpage/cifar10-fast): 
 Demonstration of training a small ResNet on CIFAR10 to 94% test accuracy in 79 seconds as described in this [blog series](https://www.myrtle.ai/2018/09/24/how_to_train_your_resnet/).
 
-## Paper implementations
+## 论文实现
 
-1. [google_evolution](https://github.com/neuralix/google_evolution): This implements one of result networks from Large-scale evolution of image classifiers by Esteban Real, et. al. 
-2. [pyscatwave](https://github.com/edouardoyallon/pyscatwave): Fast Scattering Transform with CuPy/PyTorch,read the paper [here](https://arxiv.org/abs/1703.08961)
-3. [scalingscattering](https://github.com/edouardoyallon/scalingscattering): Scaling The Scattering Transform : Deep Hybrid Networks.  
-4. [deep-auto-punctuation](https://github.com/episodeyang/deep-auto-punctuation): a pytorch implementation of auto-punctuation learned character by character.  
-5. [Realtime_Multi-Person_Pose_Estimation](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation): This is a pytorch version of Realtime_Multi-Person_Pose_Estimation, origin code is [here](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation) .
-6. [PyTorch-value-iteration-networks](https://github.com/onlytailei/PyTorch-value-iteration-networks): PyTorch implementation of the Value Iteration Networks (NIPS '16) paper  
-7. [pytorch_Highway](https://github.com/analvikingur/pytorch_Highway): Highway network implemented in pytorch.
-8. [pytorch_NEG_loss](https://github.com/analvikingur/pytorch_NEG_loss): NEG loss implemented in pytorch.  
-9. [pytorch_RVAE](https://github.com/analvikingur/pytorch_RVAE): Recurrent Variational Autoencoder that generates sequential data implemented in pytorch.   
-10. [pytorch_TDNN](https://github.com/analvikingur/pytorch_TDNN): Time Delayed NN implemented in pytorch.  
-11. [eve.pytorch](https://github.com/moskomule/eve.pytorch): An implementation of Eve Optimizer, proposed in Imploving Stochastic Gradient Descent with Feedback, Koushik and Hayashi, 2016.  
-12. [e2e-model-learning](https://github.com/locuslab/e2e-model-learning): Task-based end-to-end model learning.  
-13. [pix2pix-pytorch](https://github.com/mrzhu-cool/pix2pix-pytorch): PyTorch implementation of "Image-to-Image Translation Using Conditional Adversarial Networks".   
-14. [Single Shot MultiBox Detector](https://github.com/amdegroot/ssd.pytorch): A PyTorch Implementation of Single Shot MultiBox Detector.  
-15. [DiscoGAN](https://github.com/carpedm20/DiscoGAN-pytorch): PyTorch implementation of "Learning to Discover Cross-Domain Relations with Generative Adversarial Networks"  
-16. [official DiscoGAN implementation](https://github.com/SKTBrain/DiscoGAN): Official implementation of "Learning to Discover Cross-Domain Relations with Generative Adversarial Networks".  
-17. [pytorch-es](https://github.com/atgambardella/pytorch-es): This is a PyTorch implementation of [Evolution Strategies](https://arxiv.org/abs/1703.03864) .  
-18. [piwise](https://github.com/bodokaiser/piwise): Pixel-wise segmentation on VOC2012 dataset using pytorch.  
-19. [pytorch-dqn](https://github.com/transedward/pytorch-dqn): Deep Q-Learning Network in pytorch.  
-20. [neuraltalk2-pytorch](https://github.com/ruotianluo/neuraltalk2.pytorch): image captioning model in pytorch(finetunable cnn in branch with_finetune)
+1. [google_evolution：该项目实现了 Esteban Real 等人完成的图像分类器大规模演化结果。](https://github.com/neuralix/google_evolution): This implements one of result networks from Large-scale evolution of image classifiers by Esteban Real, et. al. 
+2. [pyscatwave：通过 CuPy/PyTorch 实现的 Fast Scattering Transform。](https://github.com/edouardoyallon/pyscatwave): Fast Scattering Transform with CuPy/PyTorch,read the paper [here](https://arxiv.org/abs/1703.08961)
+3. [scalingscattering：论文《Scaling The Scattering Transform : Deep Hybrid Networks》的实现](https://github.com/edouardoyallon/scalingscattering): Scaling The Scattering Transform : Deep Hybrid Networks.  
+4. [deep-auto-punctuation：PyTorch 实现字符级的自动标点符号模型。](https://github.com/episodeyang/deep-auto-punctuation): a pytorch implementation of auto-punctuation learned character by character.  
+5. [Realtime_Multi-Person_Pose_Estimation：GitHub 项目 Realtime_Multi-Person_Pose_Estimation 的 PyTorch 版。](https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation): This is a pytorch version of Realtime_Multi-Person_Pose_Estimation, origin code is [here](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation) .
+6. [PyTorch-value-iteration-networks：价值迭代网络（NIPS'16 论文）的 PyTorch 实现。](https://github.com/onlytailei/PyTorch-value-iteration-networks): PyTorch implementation of the Value Iteration Networks (NIPS '16) paper  
+7. [pytorch_Highway：基于 PyTorch 实现的高速公路网络。](https://github.com/analvikingur/pytorch_Highway): Highway network implemented in pytorch.
+8. [pytorch_NEG_loss：实现 NEG 损失函数。](https://github.com/analvikingur/pytorch_NEG_loss): NEG loss implemented in pytorch.  
+9. [pytorch_RVAE：实现生成序列数据的循环变分自编码器](https://github.com/analvikingur/pytorch_RVAE): Recurrent Variational Autoencoder that generates sequential data implemented in pytorch.   
+10. [pytorch_TDNN：时延神经网络（Time Delayed NN）的实现。](https://github.com/analvikingur/pytorch_TDNN): Time Delayed NN implemented in pytorch.  
+11. [eve.pytorch：Eve Optimizer 的实现，该最优化器在论文《proposed in Imploving Stochastic Gradient Descent with Feedback》中提出。](https://github.com/moskomule/eve.pytorch): An implementation of Eve Optimizer, proposed in Imploving Stochastic Gradient Descent with Feedback, Koushik and Hayashi, 2016.  
+12. [e2e-model-learning：基于任务的端到端模型学习。](https://github.com/locuslab/e2e-model-learning): Task-based end-to-end model learning.  
+13. [pix2pix-pytorch：使用条件对抗网络实现图像到图像的转换。](https://github.com/mrzhu-cool/pix2pix-pytorch): PyTorch implementation of "Image-to-Image Translation Using Conditional Adversarial Networks".   
+14. [Single Shot MultiBox Detector：单次多框检测器的 PyTorch 实现。](https://github.com/amdegroot/ssd.pytorch): A PyTorch Implementation of Single Shot MultiBox Detector.  
+15. [DiscoGAN：论文《Learning to Discover Cross-Domain Relations with Generative Adversarial Networks》的 PyTorch 实现](https://github.com/carpedm20/DiscoGAN-pytorch): PyTorch implementation of "Learning to Discover Cross-Domain Relations with Generative Adversarial Networks"  
+16. [official DiscoGAN implementation：论文《Learning to Discover Cross-Domain Relations with Generative Adversarial Networks》的官方实现](https://github.com/SKTBrain/DiscoGAN): Official implementation of "Learning to Discover Cross-Domain Relations with Generative Adversarial Networks".  
+17. [pytorch-es：进化策略的 PyTorch 实现。](https://github.com/atgambardella/pytorch-es): This is a PyTorch implementation of [Evolution Strategies](https://arxiv.org/abs/1703.03864) .  
+18. [piwise：基于 VOC2012 数据集实现逐像素的分割](https://github.com/bodokaiser/piwise): Pixel-wise segmentation on VOC2012 dataset using pytorch.  
+19. [pytorch-dqn：实现深度 Q 学习。](https://github.com/transedward/pytorch-dqn): Deep Q-Learning Network in pytorch.  
+20. [neuraltalk2-pytorch：实现图像描述模型，其中 CNN 根据任务可微调。](https://github.com/ruotianluo/neuraltalk2.pytorch): image captioning model in pytorch(finetunable cnn in branch with_finetune)
 21. [vnet.pytorch](https://github.com/mattmacy/vnet.pytorch): A Pytorch implementation for V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation.    
 22. [pytorch-fcn](https://github.com/wkentaro/pytorch-fcn): PyTorch implementation of Fully Convolutional Networks.  
 23. [WideResNets](https://github.com/xternalz/WideResNet-pytorch): WideResNets for CIFAR10/100 implemented in PyTorch. This implementation requires less GPU memory than what is required by the official Torch implementation: https://github.com/szagoruyko/wide-residual-networks .
@@ -526,28 +527,28 @@ Demonstration of training a small ResNet on CIFAR10 to 94% test accuracy in 79 s
 284. [torch_waveglow](https://github.com/npuichigo/waveglow): A PyTorch implementation of the WaveGlow: A Flow-based Generative Network for Speech Synthesis. 
 
 
-## Pytorch elsewhere
+## PyTorch 其他项目
 
-1. **[the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch)**: The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch. 
-2. [generative models](https://github.com/wiseodd/generative-models): Collection of generative models, e.g. GAN, VAE in Tensorflow, Keras, and Pytorch. http://wiseodd.github.io  
-3. [pytorch vs tensorflow](https://www.reddit.com/r/MachineLearning/comments/5w3q74/d_so_pytorch_vs_tensorflow_whats_the_verdict_on/): an informative thread on reddit. 
-4. [Pytorch discussion forum](https://discuss.pytorch.org/)  
-5. [pytorch notebook: docker-stack](https://hub.docker.com/r/escong/pytorch-notebook/): A project similar to [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook)
-6. [drawlikebobross](https://github.com/kendricktan/drawlikebobross): Draw like Bob Ross using the power of Neural Networks (With PyTorch)!
-7. [pytorch-tvmisc](https://github.com/t-vi/pytorch-tvmisc): Totally Versatile Miscellanea for Pytorch
-8. [pytorch-a3c-mujoco](https://github.com/andrewliao11/pytorch-a3c-mujoco): Implement A3C for Mujoco gym envs.
+1. **[the-incredible-pytorch：包含 PyTorch 各种教程、论文、项目和社区的项目。](https://github.com/ritchieng/the-incredible-pytorch)**: The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch. 
+2. [generative models：收集 TensorFlow、Keras 和 PyTorch 的生成模型，即 GAN 和 VAE。](https://github.com/wiseodd/generative-models): Collection of generative models, e.g. GAN, VAE in Tensorflow, Keras, and Pytorch. http://wiseodd.github.io  
+3. [pytorch vs tensorflow：reddit 上 PyTorch 与 TensorFlow 对比。](https://www.reddit.com/r/MachineLearning/comments/5w3q74/d_so_pytorch_vs_tensorflow_whats_the_verdict_on/): an informative thread on reddit. 
+4. [Pytorch discussion forum：PyTorch 论坛。](https://discuss.pytorch.org/)  
+5. [pytorch notebook: docker-stack：类似于 Jupyter Notebook 的项目。](https://hub.docker.com/r/escong/pytorch-notebook/): A project similar to [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook)
+6. [drawlikebobross：使用神经网络做图象风格迁移。](https://github.com/kendricktan/drawlikebobross): Draw like Bob Ross using the power of Neural Networks (With PyTorch)!
+7. [pytorch-tvmisc：PyTorch 个人实现项目。](https://github.com/t-vi/pytorch-tvmisc): Totally Versatile Miscellanea for Pytorch
+8. [pytorch-a3c-mujoco：在 Mujoco gym 环境下实现 A3C 项目。](https://github.com/andrewliao11/pytorch-a3c-mujoco): Implement A3C for Mujoco gym envs.
 9. [PyTorch in 5 Minutes](https://www.youtube.com/watch?v=nbJ-2G2GXL0&list=WL&index=9).
-10. [pytorch_chatbot](https://github.com/jinfagang/pytorch_chatbot): A Marvelous ChatBot implemented using PyTorch.
+10. [pytorch_chatbot：使用 PyTorch 实现 ChatBot。](https://github.com/jinfagang/pytorch_chatbot): A Marvelous ChatBot implemented using PyTorch.
 11. [malmo-challenge](https://github.com/Kaixhin/malmo-challenge): Malmo Collaborative AI Challenge - Team Pig Catcher
-12. [sketchnet](https://github.com/jtoy/sketchnet): A model that takes an image and generates Processing source code to regenerate that image
-13. [Deep-Learning-Boot-Camp](https://github.com/QuantScientist/Deep-Learning-Boot-Camp): A nonprofit community run, 5-day Deep Learning Bootcamp http://deep-ml.com. 
-14. [Amazon_Forest_Computer_Vision](https://github.com/mratsim/Amazon_Forest_Computer_Vision): Satellite Image tagging code using PyTorch / Keras with lots of PyTorch tricks. kaggle competition.
-15. [AlphaZero_Gomoku](https://github.com/junxiaosong/AlphaZero_Gomoku): An implementation of the AlphaZero algorithm for Gomoku (also called Gobang or Five in a Row)
-16. [pytorch-cv](https://github.com/youansheng/pytorch-cv): Repo for Object Detection, Segmentation & Pose Estimation.
-17. [deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid): Pytorch implementation of deep person re-identification approaches.
-18. [pytorch-template](https://github.com/victoresque/pytorch-template): PyTorch template project
-19. [Deep Learning With Pytorch TextBook](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch) A practical guide to build neural network models in text and vision using PyTorch. [Purchase on Amazon ](https://www.amazon.in/Deep-Learning-PyTorch-practical-approach/dp/1788624335/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1523853954&sr=8-1)     [github code repo](https://github.com/svishnu88/DLwithPyTorch) 
-20. [compare-tensorflow-pytorch](https://github.com/jalola/compare-tensorflow-pytorch): Compare outputs between layers written in Tensorflow and layers written in Pytorch.
+12. [sketchnet：输入图像并生成处理源码，其可以再生成改图像。](https://github.com/jtoy/sketchnet): A model that takes an image and generates Processing source code to regenerate that image
+13. [Deep-Learning-Boot-Camp：非赢利公司，5 天的深度学习训练营。](https://github.com/QuantScientist/Deep-Learning-Boot-Camp): A nonprofit community run, 5-day Deep Learning Bootcamp http://deep-ml.com. 
+14. [Amazon_Forest_Computer_Vision：使用 PyTorch 或 Keras 的卫星图像标注代码，它有非常多 PyTorch 技巧。](https://github.com/mratsim/Amazon_Forest_Computer_Vision): Satellite Image tagging code using PyTorch / Keras with lots of PyTorch tricks. kaggle competition.
+15. [AlphaZero_Gomoku：用于五子棋的 AlphaZero 算法实现。](https://github.com/junxiaosong/AlphaZero_Gomoku): An implementation of the AlphaZero algorithm for Gomoku (also called Gobang or Five in a Row)
+16. [pytorch-cv：目标检测、语义分割和姿态识别的实现项目。](https://github.com/youansheng/pytorch-cv): Repo for Object Detection, Segmentation & Pose Estimation.
+17. [deep-person-reid：深度人脸再识别 PyTorch 实现项目。](https://github.com/KaiyangZhou/deep-person-reid): Pytorch implementation of deep person re-identification approaches.
+18. [pytorch-template：PyTorch 项目模板。](https://github.com/victoresque/pytorch-template): PyTorch template project
+19. [Deep Learning With Pytorch TextBook：使用 PyTorch 构建基于文本或视觉方面的神经网络指南。](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch) A practical guide to build neural network models in text and vision using PyTorch. [Purchase on Amazon ](https://www.amazon.in/Deep-Learning-PyTorch-practical-approach/dp/1788624335/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1523853954&sr=8-1)     [github code repo](https://github.com/svishnu88/DLwithPyTorch) 
+20. [compare-tensorflow-pytorch：对比使用 TensorFlow 写的模型和用 PyTorch 写的模型。](https://github.com/jalola/compare-tensorflow-pytorch): Compare outputs between layers written in Tensorflow and layers written in Pytorch.
 21. [hasktorch](https://github.com/hasktorch/hasktorch): Tensors and neural networks in Haskell
 22. [Deep Learning With Pytorch](https://www.manning.com/books/deep-learning-with-pytorch) Deep Learning with PyTorch teaches you how to implement deep learning algorithms with Python and PyTorch. 
 23. [nimtorch](https://github.com/fragcolor-xyz/nimtorch): PyTorch - Python + Nim
